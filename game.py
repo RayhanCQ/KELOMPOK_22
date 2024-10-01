@@ -23,4 +23,4 @@ class PermainanBatuGuntingKertas:
             return "Kamu menang!"
         else:
             return "Komputer menang!"
-  
+
