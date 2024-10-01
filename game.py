@@ -23,4 +23,14 @@ class PermainanBatuGuntingKertas:
             return "Kamu menang!"
         else:
             return "Komputer menang!"
+            #fungsi buat jalanin gamenya
+        def main():
+            game = PermainanBatuGuntingKertas()
+            game.perkenalan()
+
+            while true:
+                pemain = input("\nPilih batu,gunting, atau kertas (ketik 'keluar' untuk berhenti) ")
+                if pemain == "keluar":
+                    print("terima kasih telah bermain")
+                    break
 
