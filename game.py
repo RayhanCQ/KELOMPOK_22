@@ -37,10 +37,12 @@ def main():
             break
         # tambahin error message dong - RCQ
         
-        # Method dengan return type dan tanpa parameter
         komputer = game.pilihan_komputer()
         
-        # Function dengan parameter dan return type
         hasil = game.tentukan_pemenang(pemain, komputer)
 
+        game.tampilkan_hasil(pemain, komputer, hasil)
 
+# ini buat jalanin funsi main() - Ali
+if __name__ == "__main__":
+    main()
