@@ -36,4 +36,11 @@ def main():
             print("terima kasih telah bermain")
             break
         # tambahin error message dong - RCQ
+        
+        # Method dengan return type dan tanpa parameter
+        komputer = game.pilihan_komputer()
+        
+        # Function dengan parameter dan return type
+        hasil = game.tentukan_pemenang(pemain, komputer)
+
 
